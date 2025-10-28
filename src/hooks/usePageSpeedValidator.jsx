@@ -9,7 +9,7 @@ export const usePageSpeedValidator = () => {
   const [results, setResults] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-  const [apiKey, setApiKey] = useState('AIzaSyCyvddUbtU5SYBWMW_-_UFODWK94A4Y7TQ');
+  const [apiKey, setApiKey] = useState('');
   const [showApiKeyInput, setShowApiKeyInput] = useState(false);
   
   // Стан для превью процесу
